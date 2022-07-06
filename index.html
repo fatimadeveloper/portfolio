@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Profile</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        header {
+            border:1px solid gray;
+            box-shadow: 2px 2px 2px gray;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .title {
+            font-weight: bold;
+            font-family: Arial;
+            font-size: 30px;
+        }
+        .nav-bar {
+            display: flex;
+        }
+        .nav-bar div {
+            margin-right: 30px;
+            font-size: 20px;
+            font-family: Arial;
+            font-weight: bold;
+        }
+        .banner {
+            margin-top: 5px;
+            box-shadow: 2px 2px 2px gray;
+            border:1px solid gray;
+            background-image: url("public/images/girl.jpg");
+            height: 670px;
+        }
+        .side-panel {
+            font-size: 20px;
+            font-family: Arial;
+            text-align: center;
+            width: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            padding: 30px;
+            margin-top: 80px;
+        }
+        p{
+            font-family: Arial;
+            color:grey ;
+        }
+        .eduinfo{
+            display:grid;
+            grid-template-columns: 4fr 8fr;
+            width: 100%;
+            justify-content: center;
+            padding: 30px;
+            margin-right: 40px;
+            font-family: Arial;
+            font-size: 20px; 
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body class="container-fluid">
+    <header>
+        <div class="title">
+            PORTFOLIO
+        </div>
+        <div class="nav-bar">
+            <div>Home</div>
+            <div>About</div>
+            <div>Services</div>
+            <div>My Projects</div>
+        </div>
+    </header>
+    <div class="banner">
+       <div class="side-panel">
+         <div>
+            <p>This is</p>
+            <h1>SHAKERA FATIMA</h1>
+            <p>FullStack Web Developer</p>
+            <div>
+                <button class="btn btn-danger">Sigin</button>
+                <button class="btn btn-warning">Register</button>
+            </div>
+         </div>
+       </div>      
+    </div>
+    <div class="eduinfo">
+        <div>
+            <img src="./public/images/banner.png">
+        </div>
+       <div>
+        <h2>ABOUT ME</h2>
+        <P>I'm pursuing Bachelor of Technology in Computer Science background From Shadan Womens College of Engineering and Technology</P>
+       </div>
+    </div>
+</body>
+</html>
